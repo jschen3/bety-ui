@@ -1,4 +1,4 @@
-bety-redesign
+bety-ui
 =============
 
-repository for development of site redesign
+Repository for development of BETY UI templates.
