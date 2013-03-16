@@ -1,0 +1,5 @@
+This folder was an auto generated analysis of the bety database using schema spy. Schema Spy uses the meta data of the database to determine the structure and relationship between various items from the database. 
+
+In order to view the analysis open index.html. It lists all the tables in the data and places the comments from the meta data. 
+
+Of particular note is the utility tables as they show the structure of each table and its children.

@@ -1,0 +1,42 @@
+// dot 2.30.1 on Mac OS X 10.7.5
+// SchemaSpy rev 590
+digraph "workflows" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "workflows" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">workflows</TD></TR>
+      <TR><TD PORT="id" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">id</TD></TR>
+      <TR><TD PORT="folder" COLSPAN="3" ALIGN="LEFT">folder</TD></TR>
+      <TR><TD PORT="started_at" COLSPAN="3" ALIGN="LEFT">started_at</TD></TR>
+      <TR><TD PORT="finished_at" COLSPAN="3" ALIGN="LEFT">finished_at</TD></TR>
+      <TR><TD PORT="created_at" COLSPAN="3" ALIGN="LEFT">created_at</TD></TR>
+      <TR><TD PORT="updated_at" COLSPAN="3" ALIGN="LEFT">updated_at</TD></TR>
+      <TR><TD PORT="site_id" COLSPAN="3" ALIGN="LEFT">site_id</TD></TR>
+      <TR><TD PORT="model_id" COLSPAN="3" ALIGN="LEFT">model_id</TD></TR>
+      <TR><TD PORT="hostname" COLSPAN="3" ALIGN="LEFT">hostname</TD></TR>
+      <TR><TD PORT="params" COLSPAN="3" ALIGN="LEFT">params</TD></TR>
+      <TR><TD PORT="advanced_edit" COLSPAN="3" ALIGN="LEFT">advanced_edit</TD></TR>
+      <TR><TD PORT="start_date" COLSPAN="3" ALIGN="LEFT">start_date</TD></TR>
+      <TR><TD PORT="end_date" COLSPAN="3" ALIGN="LEFT">end_date</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/workflows.html"
+    tooltip="workflows"
+  ];
+}

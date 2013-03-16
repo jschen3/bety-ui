@@ -1,0 +1,51 @@
+// dot 2.30.1 on Mac OS X 10.7.5
+// SchemaSpy rev 590
+digraph "sites" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "sites" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">sites</TD></TR>
+      <TR><TD PORT="id" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">id</TD></TR>
+      <TR><TD PORT="city" COLSPAN="3" ALIGN="LEFT">city</TD></TR>
+      <TR><TD PORT="state" COLSPAN="3" ALIGN="LEFT">state</TD></TR>
+      <TR><TD PORT="country" COLSPAN="3" ALIGN="LEFT">country</TD></TR>
+      <TR><TD PORT="lat" COLSPAN="3" ALIGN="LEFT">lat</TD></TR>
+      <TR><TD PORT="lon" COLSPAN="3" ALIGN="LEFT">lon</TD></TR>
+      <TR><TD PORT="mat" COLSPAN="3" ALIGN="LEFT">mat</TD></TR>
+      <TR><TD PORT="map" COLSPAN="3" ALIGN="LEFT">map</TD></TR>
+      <TR><TD PORT="masl" COLSPAN="3" ALIGN="LEFT">masl</TD></TR>
+      <TR><TD PORT="soil" COLSPAN="3" ALIGN="LEFT">soil</TD></TR>
+      <TR><TD PORT="som" COLSPAN="3" ALIGN="LEFT">som</TD></TR>
+      <TR><TD PORT="notes" COLSPAN="3" ALIGN="LEFT">notes</TD></TR>
+      <TR><TD PORT="soilnotes" COLSPAN="3" ALIGN="LEFT">soilnotes</TD></TR>
+      <TR><TD PORT="created_at" COLSPAN="3" ALIGN="LEFT">created_at</TD></TR>
+      <TR><TD PORT="updated_at" COLSPAN="3" ALIGN="LEFT">updated_at</TD></TR>
+      <TR><TD PORT="sitename" COLSPAN="3" ALIGN="LEFT">sitename</TD></TR>
+      <TR><TD PORT="greenhouse" COLSPAN="3" ALIGN="LEFT">greenhouse</TD></TR>
+      <TR><TD PORT="user_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">user_id</TD></TR>
+      <TR><TD PORT="local_time" COLSPAN="3" ALIGN="LEFT">local_time</TD></TR>
+      <TR><TD PORT="sand_pct" COLSPAN="3" ALIGN="LEFT">sand_pct</TD></TR>
+      <TR><TD PORT="clay_pct" COLSPAN="3" ALIGN="LEFT">clay_pct</TD></TR>
+      <TR><TD PORT="espg" COLSPAN="3" ALIGN="LEFT">espg</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">858 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/sites.html"
+    tooltip="sites"
+  ];
+}

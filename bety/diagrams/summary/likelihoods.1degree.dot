@@ -1,0 +1,39 @@
+// dot 2.30.1 on Mac OS X 10.7.5
+// SchemaSpy rev 590
+digraph "likelihoods" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "likelihoods" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">likelihoods</TD></TR>
+      <TR><TD PORT="id" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">id</TD></TR>
+      <TR><TD PORT="run_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">run_id</TD></TR>
+      <TR><TD PORT="variable_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">variable_id</TD></TR>
+      <TR><TD PORT="input_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">input_id</TD></TR>
+      <TR><TD PORT="loglikelihood" COLSPAN="3" ALIGN="LEFT">loglikelihood</TD></TR>
+      <TR><TD PORT="n_eff" COLSPAN="3" ALIGN="LEFT">n_eff</TD></TR>
+      <TR><TD PORT="weight" COLSPAN="3" ALIGN="LEFT">weight</TD></TR>
+      <TR><TD PORT="residual" COLSPAN="3" ALIGN="LEFT">residual</TD></TR>
+      <TR><TD PORT="created_at" COLSPAN="3" ALIGN="LEFT">created_at</TD></TR>
+      <TR><TD PORT="updated_at" COLSPAN="3" ALIGN="LEFT">updated_at</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/likelihoods.html"
+    tooltip="likelihoods"
+  ];
+}

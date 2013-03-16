@@ -1,0 +1,117 @@
+// dot 2.30.1 on Mac OS X 10.7.5
+// SchemaSpy rev 590
+digraph "species" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "species" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">species</TD></TR>
+      <TR><TD PORT="id" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">id</TD></TR>
+      <TR><TD PORT="spcd" COLSPAN="3" ALIGN="LEFT">spcd</TD></TR>
+      <TR><TD PORT="genus" COLSPAN="3" ALIGN="LEFT">genus</TD></TR>
+      <TR><TD PORT="species" COLSPAN="3" ALIGN="LEFT">species</TD></TR>
+      <TR><TD PORT="scientificname" COLSPAN="3" ALIGN="LEFT">scientificname</TD></TR>
+      <TR><TD PORT="commonname" COLSPAN="3" ALIGN="LEFT">commonname</TD></TR>
+      <TR><TD PORT="notes" COLSPAN="3" ALIGN="LEFT">notes</TD></TR>
+      <TR><TD PORT="created_at" COLSPAN="3" ALIGN="LEFT">created_at</TD></TR>
+      <TR><TD PORT="updated_at" COLSPAN="3" ALIGN="LEFT">updated_at</TD></TR>
+      <TR><TD PORT="AcceptedSymbol" COLSPAN="3" ALIGN="LEFT">AcceptedSymbol</TD></TR>
+      <TR><TD PORT="SynonymSymbol" COLSPAN="3" ALIGN="LEFT">SynonymSymbol</TD></TR>
+      <TR><TD PORT="Symbol" COLSPAN="3" ALIGN="LEFT">Symbol</TD></TR>
+      <TR><TD PORT="PLANTS_Floristic_Area" COLSPAN="3" ALIGN="LEFT">PLANTS_Floristic_Area</TD></TR>
+      <TR><TD PORT="State" COLSPAN="3" ALIGN="LEFT">State</TD></TR>
+      <TR><TD PORT="Category" COLSPAN="3" ALIGN="LEFT">Category</TD></TR>
+      <TR><TD PORT="Family" COLSPAN="3" ALIGN="LEFT">Family</TD></TR>
+      <TR><TD PORT="FamilySymbol" COLSPAN="3" ALIGN="LEFT">FamilySymbol</TD></TR>
+      <TR><TD PORT="FamilyCommonName" COLSPAN="3" ALIGN="LEFT">FamilyCommonName</TD></TR>
+      <TR><TD PORT="xOrder" COLSPAN="3" ALIGN="LEFT">xOrder</TD></TR>
+      <TR><TD PORT="SubClass" COLSPAN="3" ALIGN="LEFT">SubClass</TD></TR>
+      <TR><TD PORT="Class" COLSPAN="3" ALIGN="LEFT">Class</TD></TR>
+      <TR><TD PORT="SubDivision" COLSPAN="3" ALIGN="LEFT">SubDivision</TD></TR>
+      <TR><TD PORT="Division" COLSPAN="3" ALIGN="LEFT">Division</TD></TR>
+      <TR><TD PORT="SuperDivision" COLSPAN="3" ALIGN="LEFT">SuperDivision</TD></TR>
+      <TR><TD PORT="SubKingdom" COLSPAN="3" ALIGN="LEFT">SubKingdom</TD></TR>
+      <TR><TD PORT="Kingdom" COLSPAN="3" ALIGN="LEFT">Kingdom</TD></TR>
+      <TR><TD PORT="ITIS_TSN" COLSPAN="3" ALIGN="LEFT">ITIS_TSN</TD></TR>
+      <TR><TD PORT="Duration" COLSPAN="3" ALIGN="LEFT">Duration</TD></TR>
+      <TR><TD PORT="GrowthHabit" COLSPAN="3" ALIGN="LEFT">GrowthHabit</TD></TR>
+      <TR><TD PORT="NativeStatus" COLSPAN="3" ALIGN="LEFT">NativeStatus</TD></TR>
+      <TR><TD PORT="NationalWetlandIndicatorStatus" COLSPAN="3" ALIGN="LEFT">NationalWetlandIndicatorStatus</TD></TR>
+      <TR><TD PORT="RegionalWetlandIndicatorStatus" COLSPAN="3" ALIGN="LEFT">RegionalWetlandIndicatorStatus</TD></TR>
+      <TR><TD PORT="ActiveGrowthPeriod" COLSPAN="3" ALIGN="LEFT">ActiveGrowthPeriod</TD></TR>
+      <TR><TD PORT="AfterHarvestRegrowthRate" COLSPAN="3" ALIGN="LEFT">AfterHarvestRegrowthRate</TD></TR>
+      <TR><TD PORT="Bloat" COLSPAN="3" ALIGN="LEFT">Bloat</TD></TR>
+      <TR><TD PORT="C2N_Ratio" COLSPAN="3" ALIGN="LEFT">C2N_Ratio</TD></TR>
+      <TR><TD PORT="CoppicePotential" COLSPAN="3" ALIGN="LEFT">CoppicePotential</TD></TR>
+      <TR><TD PORT="FallConspicuous" COLSPAN="3" ALIGN="LEFT">FallConspicuous</TD></TR>
+      <TR><TD PORT="FireResistance" COLSPAN="3" ALIGN="LEFT">FireResistance</TD></TR>
+      <TR><TD PORT="FoliageTexture" COLSPAN="3" ALIGN="LEFT">FoliageTexture</TD></TR>
+      <TR><TD PORT="GrowthForm" COLSPAN="3" ALIGN="LEFT">GrowthForm</TD></TR>
+      <TR><TD PORT="GrowthRate" COLSPAN="3" ALIGN="LEFT">GrowthRate</TD></TR>
+      <TR><TD PORT="MaxHeight20Yrs" COLSPAN="3" ALIGN="LEFT">MaxHeight20Yrs</TD></TR>
+      <TR><TD PORT="MatureHeight" COLSPAN="3" ALIGN="LEFT">MatureHeight</TD></TR>
+      <TR><TD PORT="KnownAllelopath" COLSPAN="3" ALIGN="LEFT">KnownAllelopath</TD></TR>
+      <TR><TD PORT="LeafRetention" COLSPAN="3" ALIGN="LEFT">LeafRetention</TD></TR>
+      <TR><TD PORT="Lifespan" COLSPAN="3" ALIGN="LEFT">Lifespan</TD></TR>
+      <TR><TD PORT="LowGrowingGrass" COLSPAN="3" ALIGN="LEFT">LowGrowingGrass</TD></TR>
+      <TR><TD PORT="NitrogenFixation" COLSPAN="3" ALIGN="LEFT">NitrogenFixation</TD></TR>
+      <TR><TD PORT="ResproutAbility" COLSPAN="3" ALIGN="LEFT">ResproutAbility</TD></TR>
+      <TR><TD PORT="AdaptedCoarseSoils" COLSPAN="3" ALIGN="LEFT">AdaptedCoarseSoils</TD></TR>
+      <TR><TD PORT="AdaptedMediumSoils" COLSPAN="3" ALIGN="LEFT">AdaptedMediumSoils</TD></TR>
+      <TR><TD PORT="AdaptedFineSoils" COLSPAN="3" ALIGN="LEFT">AdaptedFineSoils</TD></TR>
+      <TR><TD PORT="AnaerobicTolerance" COLSPAN="3" ALIGN="LEFT">AnaerobicTolerance</TD></TR>
+      <TR><TD PORT="CaCO3Tolerance" COLSPAN="3" ALIGN="LEFT">CaCO3Tolerance</TD></TR>
+      <TR><TD PORT="ColdStratification" COLSPAN="3" ALIGN="LEFT">ColdStratification</TD></TR>
+      <TR><TD PORT="DroughtTolerance" COLSPAN="3" ALIGN="LEFT">DroughtTolerance</TD></TR>
+      <TR><TD PORT="FertilityRequirement" COLSPAN="3" ALIGN="LEFT">FertilityRequirement</TD></TR>
+      <TR><TD PORT="FireTolerance" COLSPAN="3" ALIGN="LEFT">FireTolerance</TD></TR>
+      <TR><TD PORT="MinFrostFreeDays" COLSPAN="3" ALIGN="LEFT">MinFrostFreeDays</TD></TR>
+      <TR><TD PORT="HedgeTolerance" COLSPAN="3" ALIGN="LEFT">HedgeTolerance</TD></TR>
+      <TR><TD PORT="MoistureUse" COLSPAN="3" ALIGN="LEFT">MoistureUse</TD></TR>
+      <TR><TD PORT="pH_Minimum" COLSPAN="3" ALIGN="LEFT">pH_Minimum</TD></TR>
+      <TR><TD PORT="pH_Maximum" COLSPAN="3" ALIGN="LEFT">pH_Maximum</TD></TR>
+      <TR><TD PORT="Min_PlantingDensity" COLSPAN="3" ALIGN="LEFT">Min_PlantingDensity</TD></TR>
+      <TR><TD PORT="Max_PlantingDensity" COLSPAN="3" ALIGN="LEFT">Max_PlantingDensity</TD></TR>
+      <TR><TD PORT="Precipitation_Minimum" COLSPAN="3" ALIGN="LEFT">Precipitation_Minimum</TD></TR>
+      <TR><TD PORT="Precipitation_Maximum" COLSPAN="3" ALIGN="LEFT">Precipitation_Maximum</TD></TR>
+      <TR><TD PORT="RootDepthMinimum" COLSPAN="3" ALIGN="LEFT">RootDepthMinimum</TD></TR>
+      <TR><TD PORT="SalinityTolerance" COLSPAN="3" ALIGN="LEFT">SalinityTolerance</TD></TR>
+      <TR><TD PORT="ShadeTolerance" COLSPAN="3" ALIGN="LEFT">ShadeTolerance</TD></TR>
+      <TR><TD PORT="TemperatureMinimum" COLSPAN="3" ALIGN="LEFT">TemperatureMinimum</TD></TR>
+      <TR><TD PORT="BloomPeriod" COLSPAN="3" ALIGN="LEFT">BloomPeriod</TD></TR>
+      <TR><TD PORT="CommercialAvailability" COLSPAN="3" ALIGN="LEFT">CommercialAvailability</TD></TR>
+      <TR><TD PORT="FruitSeedPeriodBegin" COLSPAN="3" ALIGN="LEFT">FruitSeedPeriodBegin</TD></TR>
+      <TR><TD PORT="FruitSeedPeriodEnd" COLSPAN="3" ALIGN="LEFT">FruitSeedPeriodEnd</TD></TR>
+      <TR><TD PORT="Propogated_by_BareRoot" COLSPAN="3" ALIGN="LEFT">Propogated_by_BareRoot</TD></TR>
+      <TR><TD PORT="Propogated_by_Bulbs" COLSPAN="3" ALIGN="LEFT">Propogated_by_Bulbs</TD></TR>
+      <TR><TD PORT="Propogated_by_Container" COLSPAN="3" ALIGN="LEFT">Propogated_by_Container</TD></TR>
+      <TR><TD PORT="Propogated_by_Corms" COLSPAN="3" ALIGN="LEFT">Propogated_by_Corms</TD></TR>
+      <TR><TD PORT="Propogated_by_Cuttings" COLSPAN="3" ALIGN="LEFT">Propogated_by_Cuttings</TD></TR>
+      <TR><TD PORT="Propogated_by_Seed" COLSPAN="3" ALIGN="LEFT">Propogated_by_Seed</TD></TR>
+      <TR><TD PORT="Propogated_by_Sod" COLSPAN="3" ALIGN="LEFT">Propogated_by_Sod</TD></TR>
+      <TR><TD PORT="Propogated_by_Sprigs" COLSPAN="3" ALIGN="LEFT">Propogated_by_Sprigs</TD></TR>
+      <TR><TD PORT="Propogated_by_Tubers" COLSPAN="3" ALIGN="LEFT">Propogated_by_Tubers</TD></TR>
+      <TR><TD PORT="Seeds_per_Pound" COLSPAN="3" ALIGN="LEFT">Seeds_per_Pound</TD></TR>
+      <TR><TD PORT="SeedSpreadRate" COLSPAN="3" ALIGN="LEFT">SeedSpreadRate</TD></TR>
+      <TR><TD PORT="SeedlingVigor" COLSPAN="3" ALIGN="LEFT">SeedlingVigor</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">47,383 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/species.html"
+    tooltip="species"
+  ];
+}
